@@ -7,6 +7,8 @@ import ai from "../../Assets/Projects/Screenshot (61).png";
 import ecomrect from "../../Assets/Projects/Screenshot (108).png";
 import ecomjs from "../../Assets/Projects/Screenshot (112).png";
 import ibm from "../../Assets/Projects/Screenshot (96).png";
+import habit from "../../Assets/Projects/InShot_20231216_195842927.jpg";
+import confab from "../../Assets/Projects/confab Chatting app using flutter.jpg";
 
 function Projects() {
   return (
@@ -19,6 +21,38 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={habit}
+              isBlog={false}
+              title="
+              Habit Tracker - Flutter/Hive Innovation"
+              description="
+             • Crafted a comprehensive habit tracking app harnessing Flutter and Hive technologies, ensuring robust functionality across Android, iOS, and web platforms.
+             • Leveraged Flutter's cross-platform capabilities to deliver a unified and consistent user experience, optimizing development resources for multiple platforms.
+             • Enabled easy habit tracking with intuitive checkboxes and interactive UI, streamlining user interaction and goal monitoring."
+              ghLink="https://github.com/WAZF/Habit-tracker.git"
+              demoLink="https://www.youtube.com/watch?v=Rc5O1e9DgLY"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={confab}
+              isBlog={false}
+              title="
+              Confab: Cross-Platform Chat App - Flutter/Firebase Mastery"
+              description="
+              •Engineered robust user authentication and verification systems within Confab, prioritizing user data security and privacy.
+              •Integrated social sign-in through Google to enhance user convenience while maintaining stringent security measures.
+              •Implemented real-time messaging and image-sharing functionalities.
+              •Enabled user profile customization and intuitive chat management options, including deletion functionalities, ensuring a seamless and user-friendly experience."
+              ghLink="https://github.com/WAZF/Confab-chatting-app.git"
+              demoLink="https://www.youtube.com/watch?v=8RkmzNKC-JA"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecomrect}
