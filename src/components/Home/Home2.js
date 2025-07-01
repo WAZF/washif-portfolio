@@ -18,37 +18,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Passionate, Organized Software Engineer professional seeking for a challenging position in a reputed organization where I can
-learn new skills, expand my knowledge, and leverage my learnings to contribute to the organization’s growth.
+            Versatile and results-driven Software Engineer with hands-on experience in FinTech, specializing in mobile(iOS/Android) and backend development. Known for strong system design, cross-functional collaboration,and a drive for innovation. Passionate about building scalable, secure solutions and continuously growingthrough new challenges and technologies.
               <br />
               <br />I am fluent in 
               <i>
-                <b className="purple"> Python, Java, C++ and Javascript </b>
+                <b className="purple"> Java, Go, Swift, Python and Javascript </b>
               </i>
               <br />
               <br />
               My field of Interest's are &nbsp;
               <i>
-                <b className="purple">Web Technologies, Software Developed, Mobile and Products </b> and
+                <b className="purple">Backend Developed, Mobile development and Product Management </b> 
+                {/* and
                 also in {" "}
                 <b className="purple">
                   AI, Machine Learning, Cloud Computing, Cyber Security and Blockchain.
-                </b>
+                </b> */}
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">FullStack Development</b> 
-              &nbsp;with
+              with
               <i>
-                <b className="purple"> MERN Stack and Python</b>
+                <b className="purple"> Mobile and Backend development</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
+            {/* <Tilt> */}
               <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            {/* </Tilt> */}
           </Col>
         </Row>
         <Row>

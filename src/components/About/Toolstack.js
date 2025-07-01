@@ -13,6 +13,8 @@ import {
   SiAdobephotoshop,
   SiAdobexd,
   SiBlender,
+  SiMacos,
+  SiXcode,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -20,7 +22,7 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows /><p style={stloj}>Windows</p>
+        <SiMacos /><p style={stloj}>macOS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiUbuntu /><p style={stloj}>Ubuntu</p>
@@ -39,6 +41,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio /><p style={stloj}>Android Studio</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiXcode /><p style={stloj}>XCode</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiUnity /><p style={stloj}>Unity</p>

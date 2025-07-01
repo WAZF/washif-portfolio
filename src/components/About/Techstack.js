@@ -9,11 +9,14 @@ import {
   DiPython,
   DiJava,
   DiCss3,
+  DiSwift,
+  DiGo,
+  DiApple,
+  DiAndroid,
 } from "react-icons/di";
 import{IoInfinite} from "react-icons/io5";
 import {
   SiFirebase,
-  SiSolidity,
   SiPostgresql,
   SiFlutter,
   SiFlask,
@@ -31,10 +34,13 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 /><p style={stloj}>HTML5</p>
+        <DiSwift /><p style={stloj}>Swift</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 /><p style={stloj}>CSS</p>
+        <DiJava /><p style={stloj}>Java</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGo /><p style={stloj}>Go</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus /><p style={stloj}>C++</p>
@@ -43,13 +49,22 @@ function Techstack() {
         <DiPython /><p style={stloj}>Python</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava /><p style={stloj}>Java</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 /><p style={stloj}>Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPhp /><p style={stloj}>PHP</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiApple /><p style={stloj}>iOS App Development</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid /><p style={stloj}>Android App Development</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter /><p style={stloj}>Flutter</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase /><p style={stloj}>Firebase</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs /><p style={stloj}>Node js</p>
@@ -70,9 +85,6 @@ function Techstack() {
         <SiPandas /><p style={stloj}>Pandas</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity /><p style={stloj}>Solidity</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiMysql /><p style={stloj}>MySQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -82,13 +94,13 @@ function Techstack() {
         <DiMongodb /><p style={stloj}>Mongodb</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlutter /><p style={stloj}>Flutter</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase /><p style={stloj}>Firebase</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <IoInfinite /><p style={stloj}>DevOps</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 /><p style={stloj}>HTML5</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 /><p style={stloj}>CSS</p>
       </Col>
     </Row>
   );
