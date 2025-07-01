@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImCircleRight, ImPointRight } from "react-icons/im";
+import { ImCircleRight } from "react-icons/im";
 
 function AboutCard() {
   return (
