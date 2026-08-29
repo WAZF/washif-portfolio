@@ -1,8 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: "Raleway", serif !important;
+  background-color: #05070d;
+  color: #e6e9f2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+
+::selection {
+  background: #4ee1c2;
+  color: #05070d;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e18;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a3346;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d4761;
+}
+
+@layer utilities {
+  .section-heading {
+    @apply font-display text-3xl sm:text-4xl font-semibold text-ink-100 tracking-tight;
+  }
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-accent;
+  }
 }
